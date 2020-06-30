@@ -1,6 +1,6 @@
 import java.util.Locale;
 
-public class ChordMethodAlgorithm {
+public class SecantMethodAlgorithm {
 
     public final static double EPS = 0.00001;
 
@@ -13,13 +13,13 @@ public class ChordMethodAlgorithm {
         System.out.println("Find an approximate solution (finding the root) to the equation: 2x^3 + 4x - 15 = 0 on the interval [1;2] with epsilon = 0.00001");
 
         System.out.println("\nThe solution of the equation in the first way:");
-        chordMethod_1(a, b);
+        secantMethod_1(a, b);
 
         System.out.println("\nThe solution of the equation in the second way:");
-        chordMethod_2(a, b);
+        secantMethod_2(a, b);
     }
 
-    public static void chordMethod_1(double a, double b) {
+    public static void secantMethod_1(double a, double b) {
         while (Math.abs(function(b)) > EPS) {
             a = b - ((b - a) * function(b)) / (function(b) - function(a));
             b = a - ((a - b) * function(a)) / (function(a) - function(b));
@@ -28,7 +28,7 @@ public class ChordMethodAlgorithm {
         }
     }
 
-    public static void chordMethod_2(double a, double b) {
+    public static void secantMethod_2(double a, double b) {
         double x_next = 0;
         double tmp;
         do {
