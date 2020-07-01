@@ -22,7 +22,7 @@ This project contains the implementation of some numerical methods for solving t
 
 ## Support
 
-Patches are welcome and can be submitted by forking this project and submitting a pull request via GitHub.
+Patches are welcome and can be submitted by forking this project and submitting a pull request via GitHub.  
 Please see [CONTRIBUTING.md](../master/CONTRIBUTING.md) for more details.
 
 ---  
