@@ -1,6 +1,6 @@
 import java.util.Locale;
 
-public class SimpleIterationMethodAlgorithm {
+public class FixedPointIterationMethodAlgorithm {
 
     private static final double EPS = 0.00001;
 

@@ -17,7 +17,7 @@ This project contains the implementation of some numerical methods for solving t
 2. [**Secant Method**](https://en.wikipedia.org/wiki/Secant_method) (also known as the **Method of Chords** and the **Method of Proportional parts**)
 3. [**Newton's Method**](https://en.wikipedia.org/wiki/Newton%27s_method) (also known as the **Newton–Raphson Method** and the **Method of Tangents**)
 4. [**Combined Method**](http://cyclowiki.org/wiki/Комбинированный_метод)
-5. [**Simple Iteration Method**](https://encyclopediaofmath.org/wiki/Simple-iteration_method#:~:text=A%20particular%20case%20of%20the,minimal%20with%20respect%20to%20τ.)
+5. [**Fixed Point Iteration Method**](https://en.wikipedia.org/wiki/Fixed-point_iteration)
 6. [**Muller's Method**](https://www.geeksforgeeks.org/program-muller-method/)
 
 ## Support
